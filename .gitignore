@@ -5,3 +5,6 @@ target/classes/bootstrap.properties
 target/classes/data.sql
 target/classes/schema.sql
 target/classes/static/index.html
+room-services.iml
+room-services.iml
+*.iml
