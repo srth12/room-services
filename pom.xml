@@ -73,10 +73,17 @@
 			<artifactId>springfox-swagger-ui</artifactId>
 			<version>2.4.0</version>
 		</dependency>
+		<!-- Make sure dependent project config-server is up using bootstraping-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
+		<!-- Make sure dependent project Eureka-service discovery server is up-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>

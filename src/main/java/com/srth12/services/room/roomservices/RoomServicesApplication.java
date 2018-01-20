@@ -2,6 +2,7 @@ package com.srth12.services.room.roomservices;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 import springfox.documentation.spring.web.plugins.Docket;
 import org.springframework.context.annotation.Bean;
@@ -14,6 +15,7 @@ import static springfox.documentation.builders.PathSelectors.any;
 
 @SpringBootApplication
 @EnableSwagger2
+@EnableDiscoveryClient
 public class RoomServicesApplication {
 
 	@Bean
