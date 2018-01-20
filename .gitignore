@@ -1,0 +1,7 @@
+
+target/classes/application.properties
+target/classes/bootstrap.properties
+*.class
+target/classes/data.sql
+target/classes/schema.sql
+target/classes/static/index.html
